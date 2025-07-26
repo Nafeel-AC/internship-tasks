@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFlow Pro - Streamline Your Workflow</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <i class="bi bi-lightning-charge-fill me-2"></i>TechFlow Pro
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-outline-light ms-2" id="themeToggle">
+                            <i class="bi bi-moon-fill"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold text-primary mb-4">
+                        Streamline Your Workflow with TechFlow Pro
+                    </h1>
+                    <p class="lead mb-4">
+                        The ultimate project management tool that helps teams collaborate, track progress, and deliver results faster than ever before.
+                    </p>
+                    <div class="d-flex gap-3">
+                        <button class="btn btn-primary btn-lg">
+                            <i class="bi bi-play-fill me-2"></i>Get Started Free
+                        </button>
+                        <button class="btn btn-outline-primary btn-lg">
+                            <i class="bi bi-play-circle me-2"></i>Watch Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image">
+                        <div class="card shadow-lg border-0">
+                            <div class="card-body p-4">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="avatar bg-primary rounded-circle me-3">
+                                        <i class="bi bi-person-fill text-white"></i>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0">Sarah Johnson</h6>
+                                        <small class="text-muted">Project Manager</small>
+                                    </div>
+                                </div>
+                                <div class="progress mb-3" style="height: 8px;">
+                                    <div class="progress-bar bg-success" style="width: 75%"></div>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <span class="text-muted">Project Progress</span>
+                                    <span class="fw-bold">75%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-5 bg-light">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="display-5 fw-bold text-primary mb-3">Powerful Features</h2>
+                    <p class="lead text-muted">Everything you need to manage your projects efficiently</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon bg-primary rounded-circle mx-auto mb-3">
+                                <i class="bi bi-kanban text-white"></i>
+                            </div>
+                            <h5 class="card-title">Kanban Boards</h5>
+                            <p class="card-text text-muted">Visualize your workflow with customizable Kanban boards that adapt to your team's needs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon bg-primary rounded-circle mx-auto mb-3">
+                                <i class="bi bi-graph-up text-white"></i>
+                            </div>
+                            <h5 class="card-title">Analytics Dashboard</h5>
+                            <p class="card-text text-muted">Track progress, identify bottlenecks, and make data-driven decisions with comprehensive analytics.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon bg-primary rounded-circle mx-auto mb-3">
+                                <i class="bi bi-people-fill text-white"></i>
+                            </div>
+                            <h5 class="card-title">Team Collaboration</h5>
+                            <p class="card-text text-muted">Real-time collaboration with comments, mentions, and seamless communication tools.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon bg-primary rounded-circle mx-auto mb-3">
+                                <i class="bi bi-clock-history text-white"></i>
+                            </div>
+                            <h5 class="card-title">Time Tracking</h5>
+                            <p class="card-text text-muted">Monitor time spent on tasks and projects with built-in time tracking and reporting.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon bg-primary rounded-circle mx-auto mb-3">
+                                <i class="bi bi-shield-check text-white"></i>
+                            </div>
+                            <h5 class="card-title">Security First</h5>
+                            <p class="card-text text-muted">Enterprise-grade security with encryption, SSO, and compliance with industry standards.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon bg-primary rounded-circle mx-auto mb-3">
+                                <i class="bi bi-phone text-white"></i>
+                            </div>
+                            <h5 class="card-title">Mobile Ready</h5>
+                            <p class="card-text text-muted">Access your projects anywhere with our responsive mobile app for iOS and Android.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="display-5 fw-bold text-primary mb-3">What Our Customers Say</h2>
+                    <p class="lead text-muted">Join thousands of satisfied teams worldwide</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="d-flex mb-3">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="card-text">"TechFlow Pro has transformed how our team collaborates. The intuitive interface and powerful features have increased our productivity by 40%."</p>
+                            <div class="d-flex align-items-center">
+                                <div class="avatar bg-primary rounded-circle me-3">
+                                    <i class="bi bi-person-fill text-white"></i>
+                                </div>
+                                <div>
+                                    <h6 class="mb-0">Alex Chen</h6>
+                                    <small class="text-muted">CTO, TechStart Inc.</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="d-flex mb-3">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="card-text">"The analytics dashboard gives us incredible insights into our project performance. It's like having a crystal ball for project management."</p>
+                            <div class="d-flex align-items-center">
+                                <div class="avatar bg-primary rounded-circle me-3">
+                                    <i class="bi bi-person-fill text-white"></i>
+                                </div>
+                                <div>
+                                    <h6 class="mb-0">Maria Rodriguez</h6>
+                                    <small class="text-muted">Product Manager, InnovateCorp</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="d-flex mb-3">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="card-text">"Setting up our workflow was incredibly easy. The customer support team was amazing and helped us get up and running in no time."</p>
+                            <div class="d-flex align-items-center">
+                                <div class="avatar bg-primary rounded-circle me-3">
+                                    <i class="bi bi-person-fill text-white"></i>
+                                </div>
+                                <div>
+                                    <h6 class="mb-0">David Kim</h6>
+                                    <small class="text-muted">Team Lead, CreativeStudio</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-5 bg-light">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="display-5 fw-bold text-primary mb-3">Choose Your Plan</h2>
+                    <p class="lead text-muted">Flexible pricing that grows with your team</p>
+                </div>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4 text-center">
+                            <h5 class="card-title text-primary">Starter</h5>
+                            <div class="price mb-3">
+                                <span class="display-4 fw-bold">$9</span>
+                                <span class="text-muted">/month</span>
+                            </div>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i>Up to 5 team members</li>
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i>Basic Kanban boards</li>
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i>5GB storage</li>
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i>Email support</li>
+                            </ul>
+                            <button class="btn btn-outline-primary w-100">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow border-primary">
+                        <div class="card-body p-4 text-center">
+                            <div class="badge bg-primary mb-2">Most Popular</div>
+                            <h5 class="card-title text-primary">Professional</h5>
+                            <div class="price mb-3">
+                                <span class="display-4 fw-bold">$29</span>
+                                <span class="text-muted">/month</span>
+                            </div>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i>Up to 25 team members</li>
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i>Advanced analytics</li>
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i>50GB storage</li>
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i>Priority support</li>
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i>Time tracking</li>
+                            </ul>
+                            <button class="btn btn-primary w-100">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4 text-center">
+                            <h5 class="card-title text-primary">Enterprise</h5>
+                            <div class="price mb-3">
+                                <span class="display-4 fw-bold">$99</span>
+                                <span class="text-muted">/month</span>
+                            </div>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i>Unlimited team members</li>
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i>Custom integrations</li>
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i>Unlimited storage</li>
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i>24/7 phone support</li>
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i>SSO & advanced security</li>
+                            </ul>
+                            <button class="btn btn-outline-primary w-100">Contact Sales</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="display-5 fw-bold mb-4">Ready to Transform Your Workflow?</h2>
+                    <p class="lead mb-4">Join thousands of teams already using TechFlow Pro to deliver better results faster.</p>
+                    <div class="d-flex gap-3 justify-content-center">
+                        <button class="btn btn-light btn-lg">
+                            <i class="bi bi-rocket-takeoff me-2"></i>Start Free Trial
+                        </button>
+                        <button class="btn btn-outline-light btn-lg">
+                            <i class="bi bi-chat-dots me-2"></i>Talk to Sales
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="mb-3">
+                        <i class="bi bi-lightning-charge-fill me-2"></i>TechFlow Pro
+                    </h5>
+                    <p class="text-muted">Streamlining workflows for modern teams.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="text-muted mb-0">&copy; 2024 TechFlow Pro. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html> 
